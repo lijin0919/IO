@@ -1,0 +1,15 @@
+编程语言的IO类库中常使用流这个抽象概念
+它代表任何有能力产出数据的数据源对象或者是有能力接受数据的接收端对象
+流屏蔽了实际的IO设备中处理数据的细节
+
+与输入有关的所有类都应该从InputStream继承
+
+与输出有关的所有类都应该从OutputStream继承
+
+1、InputStream
+
+文件：FileInputStream
+
+2、OutputStream
+FileOutputStream:将信息写至文件
+
